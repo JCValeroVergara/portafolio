@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom'
 import { menuRoutes } from '../router/router';
-import { SidebarMenuItems } from '../components/SiderbarMenuItems';
+import { SidebarMenuItems } from '../components';
 
 export const DashboardLayout = () => {
     return (
