@@ -1,6 +1,7 @@
 export * from './Css.logo';
 export * from './Docker.logo';
 export * from './Express.logo';
+export * from './Git.logo';
 export * from './Html.logo';
 export * from './Javascript.logo';
 export * from './Mongodb.logo';
