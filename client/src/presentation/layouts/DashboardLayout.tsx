@@ -9,8 +9,11 @@ export const DashboardLayout = () => {
         <nav className="hidden sm:flex flex-col ml-5 w-[370px] min-h-[calc(100vh-3.0rem)] bg-white bg-opacity-10 p-5 rounded-3xl">
             <h1 className="font-bold text-lg lg:text-3xl bg-gradient-to-br from-white via-white/50 bg-clip-text text-transparent">
             Juan Carlos Valero<span className="text-indigo-500">.</span>
-            </h1>
-            <span className="text-xl">Bienvenido</span>
+                </h1>
+                <div className='flex flex-row items-center'>
+                    <span className="text-xl">Bienvenido</span>
+                    <img className="w-16 h-16 rounded-full ml-auto" src="/FullStack.png" alt="Rounded avatar"></img>
+                </div>
 
             <div className="border-gray-700 border my-3" />
 
