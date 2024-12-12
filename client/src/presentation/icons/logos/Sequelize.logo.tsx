@@ -4,8 +4,7 @@ export const SequelizeLogo = (props: SVGProps<SVGSVGElement>) => {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={800}
-            height={800}
+            className='w-full h-full'
             preserveAspectRatio="xMidYMid"
             viewBox="-20 0 296 296"
             {...props}

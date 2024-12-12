@@ -10,7 +10,7 @@ export const CategorySkillsList: React.FC<CategorySkillsListProps> = ({ activeCa
     return (
         <div ref={categoriesRef} className="w-full flex flex-col items-center space-y-4 z-10">
                 <div
-                    className={`cursor-pointer text-2xl font-bold py-2 px-4 rounded-lg overflow-hidden ${
+                    className={`cursor-pointer text-xl md:text-2xl font-bold py-2 px-4 rounded-lg overflow-hidden ${
                             activeCategory === 'programmingLanguages' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'
                         }`}
                         onClick={() => toggleCategory('programmingLanguages')}
@@ -23,7 +23,7 @@ export const CategorySkillsList: React.FC<CategorySkillsListProps> = ({ activeCa
                         </div>
                     )}
                 <div
-                    className={`cursor-pointer text-2xl font-bold py-2 px-4 rounded-lg ${
+                    className={`cursor-pointer  text-xl md:text-2xl font-bold py-2 px-4 rounded-lg ${
                             activeCategory === 'frameworks' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'
                         }`}
                         onClick={() => toggleCategory('frameworks')}
@@ -36,7 +36,7 @@ export const CategorySkillsList: React.FC<CategorySkillsListProps> = ({ activeCa
                         </div>
                 )}
                 <div
-                    className={`cursor-pointer text-2xl font-bold py-2 px-4 rounded-lg ${
+                    className={`cursor-pointer  text-xl md:text-2xl font-bold py-2 px-4 rounded-lg ${
                             activeCategory === 'dataBases' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'
                         }`}
                         onClick={() => toggleCategory('dataBases')}
@@ -49,7 +49,7 @@ export const CategorySkillsList: React.FC<CategorySkillsListProps> = ({ activeCa
                         </div>
                     )}
                 <div
-                    className={`cursor-pointer text-2xl font-bold py-2 px-4 rounded-lg ${
+                    className={`cursor-pointer  text-xl md:text-2xl font-bold py-2 px-4 rounded-lg ${
                             activeCategory === 'orms' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'
                         }`}
                         onClick={() => toggleCategory('orms')}
@@ -62,7 +62,7 @@ export const CategorySkillsList: React.FC<CategorySkillsListProps> = ({ activeCa
                         </div>
                     )}
                 <div
-                    className={`cursor-pointer text-2xl font-bold py-2 px-4 rounded-lg ${
+                    className={`cursor-pointer  text-xl md:text-2xl font-bold py-2 px-4 rounded-lg ${
                             activeCategory === 'devOpsTools' ? 'bg-blue-500 text-white' : 'bg-gray-300 text-black'
                         }`}
                         onClick={() => toggleCategory('devOpsTools')}
